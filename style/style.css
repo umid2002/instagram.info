@@ -1,0 +1,29 @@
+.instagram{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.logo-img
+{
+  margin-bottom: 30px;
+}
+input{
+  margin-bottom: 7px;
+  width: 250px;
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 10px 5px;
+  outline: none;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+.password{
+  margin-bottom: 12px;
+}
+.submit{
+  margin-bottom: 15px;
+}
