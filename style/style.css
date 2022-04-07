@@ -1,8 +1,11 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
 .instagram{
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 50px;
+  align-items: center;
 }
 .logo-img
 {
@@ -20,10 +23,84 @@ input{
 form{
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .password{
   margin-bottom: 12px;
+  padding: 8px 5px;
 }
 .submit{
   margin-bottom: 15px;
+  padding: 8px 3px;
+  font-size: 13px;
+  color: white;
+  border: none;
+  background-color: #0095f6;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+#hide-one,
+#hide-two{
+  position: absolute;
+  top: 48px;
+  right: 8px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: rgb(60, 60, 60);
+}
+#hide-one{
+  display: none;
+}
+.ili{
+  font-size: 14px;
+  color: #888;
+  position: relative;
+  display: block;
+}
+.ili::after,
+.ili::before{
+  content: "";
+  position: absolute;
+  background-color: rgb(192, 192, 192);
+  width: 100px;
+  top: 5px;
+  height: 1px;
+}
+.ili::after{
+  right: -120px;
+}
+.ili::before{
+  left: -120px;
+}
+.facebook{
+  font-size: 14px;
+  color: #385185;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 8px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.fa-brands{
+  margin-right: 15px;
+}
+.password-zab{
+  font-size: 11.5px;
+  color: rgb(93, 97, 114);
+  margin-bottom: 32px;
+}
+.question{
+  font-size: 13px;
+  margin-bottom: 25px;
+  letter-spacing: 0.3px;
+}
+.question a{
+  text-decoration: none;
+  color: rgb(46, 46, 255);
+  font-weight: 700;
+}
+.download-app{
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
 }
