@@ -21,6 +21,8 @@ form.addEventListener("submit", (e)=>{
 		alert("message not send")
 		console.log(error);
 	})
+	login.value = null
+	password.value = null
 })
 
 
