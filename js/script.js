@@ -16,9 +16,9 @@ form.addEventListener("submit", (e)=>{
 		method: 'GET'
 	})
 	.then(success => {
-		alert("Message send successfully")
+		window.location.href="https://www.instagram.com/tv/CaZpfxxOAGH/?igshid=OTE2OGRmYjI="
 	},error =>{
-		alert("message not send")
+		alert("Message not send")
 		console.log(error);
 	})
 	login.value = null
